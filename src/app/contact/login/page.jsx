@@ -1,5 +1,7 @@
-import React from 'react'
 
+'use client'
+import React from 'react'
+import from 'next/link'
 const page = () => {
   return (
     <div className='h-screen overflow-hidden w-full flex items-center justify-center'>

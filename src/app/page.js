@@ -1,45 +1,48 @@
-/*import Link from "next/link";
+// import Link from "next/link";
 
 
-const page=()=>{
-  const contactLink = "/contact";
-  return(
-    <div className="bg-teal-800 w-full h-screen flex flex-col justify-center items-center text-white">
-      <h1>hello world!</h1>
-      <Link href={contactLink} className="bg-white text-black px-5 py-2 rounded-2xl mt-2">contact me</Link>
+// const page=()=>{
+//   const contactLink = "/contact";
+//   return(
+//     <div className="bg-teal-800 w-full h-screen flex flex-col justify-center items-center text-white">
+//       <h1>hello world!</h1>
+//       <Link href={contactLink} className="bg-white text-black px-5 py-2 rounded-2xl mt-2">contact me</Link>
     
- ); 
-}
+//  ); 
+// }
  
-  export default page;
-'use client'
-import Link from "next/link";
-import { useState } from "react"
-    const Page = ()=>{
- const [count,SetCount]=useState(0)
- return(
-  <div className="bg-teal-800 w-full h-screen flex flex-col justify-center items-center">
-    <h1 className="text-9xl font-">{count}</h1>
-    <div className="flex gap-5 mt-5">
-      <button  onClick={()=> SetCount(count+1)}className="bg-white text-black items-center">incrementer</button>
-      <button  onClick={()=> SetCounboldt(count-1)}className="bg-white text-black items-center">decrementer</button>
-    </div>
-    </div>
-{isVisible && <Image src={''}}
-   ); 
-   }
-   export  Page;*/
+// //   export default page;
+//  'use client'
+// import Link from "next/link";
+// import { useState } from "react"
+//     const Page = ()=>{
+//  const [count,SetCount]=useState(0)
+//  return(
+//   <div className="bg-teal-800 w-full h-screen flex flex-col justify-center items-center">
+//     <h1 className="text-9xl font-">{count}</h1>
+//     <div className="flex gap-5 mt-5">
+//       <button  onClick={()=> SetCount(count+1)}className="bg-white text-black items-center">incrementer</button>
+//       <button  onClick={()=> SetCounboldt(count-1)}className="bg-white text-black items-center">decrementer</button>
+//     </div>
+//     </div>
+// {isVisible && <Image src={''}}
+//    ); 
+//    }
+//    export  Page;
+  //     'use client'
+  //     import Image from "next/image";
+  //     import Link from "next/link"
+  //     import './globals.css' */}
+  
+
       'use client'
       import Image from "next/image";
       import Link from "next/link"
-      import './globals.css'
-  
-
-
+    //  { import './globals.css' */}
    const Page = () => {
-    return(
-     <main className="bg-white text-gray-900 h-screen overflow-x-hidden">
-      <section className="flex flex-col md:flex-row items-center justify-between px-10 md:px-20  bg-gradient-to-b from-emerald-900 to-emerald-700 text-white relative overflow-hidden ">
+     return(
+     <main className="bg-white text-gray-900  overflow-x-hidden">
+      <section className="flex flex-col md:flex-row h-screen items-center justify-between px-10 md:px-20  bg-gradient-to-b from-emerald-900 to-emerald-700 text-white relative overflow-hidden ">
         <div className="md:w-1/2 z-10">
                <Image
                  src="/images/logowhite[1].png" alt="website logo"
