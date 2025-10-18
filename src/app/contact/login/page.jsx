@@ -1,7 +1,8 @@
 
 'use client'
-import React from 'react'
-import from 'next/link'
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 const page = () => {
   return (
     <div className='h-screen overflow-hidden w-full flex items-center justify-center'>

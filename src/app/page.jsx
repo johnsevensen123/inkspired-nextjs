@@ -1,4 +1,4 @@
-'use client'
+
 
 // import Link from "next/link";
 
@@ -37,11 +37,11 @@
   //     import Link from "next/link"
   //     import './globals.css' */}
   
-
-     
-      import Image from "next/image";
+     'use client'
+     import React from "react"
+      import Image from "next/image"
       import Link from "next/link"
-    //  { import './globals.css' */}
+  
    const Page = () => {
      return(
      <main className="bg-white text-gray-900  overflow-x-hidden">
