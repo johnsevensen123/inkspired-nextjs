@@ -44,7 +44,7 @@ const HomePage = () => {
         <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center relative">
           <div className="rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-500">
             <Image 
-              src="/images/WhatsApp Image 2025-10-10 à 16.11.55_be8b881c.jpg" 
+              src="/images/WhatsApp_Image_2025-10-10-à-16.11.55_be8b881c.jpg" 
               alt="Inkspire showcase" 
               width={340} 
               height={850} 
