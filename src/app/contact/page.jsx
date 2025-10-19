@@ -4,10 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ContactPage = () => {
-  if (!a) return null
-const { auth } = a
+ 
 
-  const {homeLink} = "/";
+  const homeLink = "/";
 
   return (
     <div className="bg-teal-800 w-full min-h-screen flex flex-col justify-center items-center text-white p-4">
@@ -25,6 +24,7 @@ const { auth } = a
         <div className="md:w-1/2 relative h-64 md:h-auto">
           <Image
             src="https://i.postimg.cc/g2xW06XH/istockphoto-2057714474-612x612.jpg"
+            fill
             className="h-full w-full object-cover"
             alt="Contact illustration"
           />
