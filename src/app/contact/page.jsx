@@ -4,6 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ContactPage = () => {
+  if (!a) return null
+const { auth } = a
+
   const {homeLink} = "/";
 
   return (
